@@ -20,21 +20,6 @@
             </div>
             <div class="bloom-editable smallCoverCredits" data-book='smallCoverCredits' lang="V"
                 data-hint="*Vous pouvez utiliser cette place pour l'auteur, l'artiste ou autres choses."></div>
-
-            <!--    <div class="coverBottomLangName">
-                   <div data-library="nameOfLanguage" lang="N1">
-                       {Lang in N1}</div>
-              <!-- maybe bring this back when we aren't storing the language name in lang '*'. Else we just get two copies
-               <div data-library="nameOfLanguage" lang="N2"  class="">{Lang in N2}</div>
-            </div> -->
-
-            <div class="bloom-translationGroup coverBottomBookTopic bloom-readOnlyInTranslationMode"
-                data-functionOnHintClick="ShowTopicChooser()" data-hint="Cliquer pour choisir le genre">
-                <!-- NB: don't be tempted to move the data-hint up to the div. If you do, it will be visible even when
-                the user isn't allowed to edit it. Down on the textarea, jscript will script it when it's readonly -->
-                <div data-book="topic" class="bloom-readOnlyInTranslationMode bloom-editable">
-                </div>
-            </div>
         </div>
     </div>
     <!-- INSIDE FRONT COVER (always blank) --->
@@ -50,6 +35,13 @@
         <div class="marginBox">
             <div id="titlePageTitleBlock" class="bloom-translationGroup">
                 <div data-book='bookTitle' class="bloom-editable" data-hint="Le titre du livre en langue {lang}">
+                </div>
+            </div>
+            <div class="bloom-translationGroup titleBottomBookTopic bloom-readOnlyInTranslationMode"
+                 data-functionOnHintClick="ShowTopicChooser()" data-hint="Cliquer pour choisir le genre">
+                <!-- NB: don't be tempted to move the data-hint up to the div. If you do, it will be visible even when
+                the user isn't allowed to edit it. Down on the textarea, jscript will script it when it's readonly -->
+                <div data-book="topic" class="bloom-readOnlyInTranslationMode bloom-editable">
                 </div>
             </div>
             <div id="originalContributions" class="bloom-translationGroup">

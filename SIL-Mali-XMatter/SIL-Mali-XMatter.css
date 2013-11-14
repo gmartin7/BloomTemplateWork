@@ -194,7 +194,7 @@ DIV.ISBNContainer .bloom-editable
 	vertical-align: top;
 }
 /*.......Topic*/
-DIV.coverBottomBookTopic
+DIV.titleBottomBookTopic
 {
 	/*[disabled]overflow:hidden;*/
 	width: 6cm;
@@ -206,7 +206,7 @@ DIV.coverBottomBookTopic
 	height: 48px;
 	text-align: right;
 }
-DIV.coverBottomBookTopic DIV
+DIV.titleBottomBookTopic DIV
 {
 	/*[disabled]overflow:hidden;*/
 	text-align: right;
@@ -218,12 +218,12 @@ DIV.coverBottomBookTopic DIV
 	padding-right: 1px;
 	/*[disabled]padding-left:15px;*/
 }
-DIV.coverBottomBookTopic DIV.bloom-contentNational1
+DIV.titleBottomBookTopic DIV.bloom-contentNational1
 {
 	/*NB: we need placement because we want the national1 to be on top, regardless of its order in the parent div*/
 	/*[disabled]+placement:anchor-top-right 0px 0px;*/
 }
-DIV.coverBottomBookTopic DIV.bloom-contentNational2
+DIV.titleBottomBookTopic DIV.bloom-contentNational2
 {
 	/*[disabled]+placement:anchor-top-right -3px 43px;*/
 }
