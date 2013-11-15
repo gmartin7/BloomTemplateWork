@@ -51,11 +51,6 @@
                     data-hint="Les contributions des écrivains, artistes, editeurs, etc. en langue {lang}">
                 </div>
             </div>
-            <div id="funding" class="bloom-translationGroup">
-                <div data-book="funding" class="funding bloom-editable"
-                    data-hint="Les remerciements au bailleur de fonds.">
-                </div>
-            </div>
             <div id="languageInformation">
                 <div class="bloom-translationGroup">
                     <div data-library="nameOfLanguage" class="langName">
@@ -65,10 +60,12 @@
                     <div data-library="dialect" class="langName">
                     </div>
                 </div>
+<!--
                 <div class="bloom-translationGroup">
                     <div data-library="languageLocation" class="langName">
                     </div>
                 </div>
+-->
             </div>
         </div>
     </div>
@@ -81,6 +78,11 @@
                 <div contenteditable="true" data-hint="Les remerciements en langue {lang}" data-book="originalAcknowledgments"
                      class="bloom-editable bloom-readOnlyInTranslationMode bloom-copyFromOtherLanguageIfNecessary">
                     {Original Acknowledgments}</div>
+            </div>
+            <div id="funding" class="bloom-translationGroup">
+                <div data-book="funding" class="funding bloom-editable"
+                     data-hint="Les remerciements au bailleur de fonds.">
+                </div>
             </div>
             <div class="bloom-metaData" id="versoLicenseAndCopyright" data-functiononhintclick="bookMetadataEditor"
                  data-hint="Cliquer pour éditer le droit d'auteur & l'autorisation">
