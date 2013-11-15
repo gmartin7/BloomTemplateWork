@@ -125,7 +125,7 @@ It will be treated as the 2ndary title, which is small and not at the top, and s
 .A5Portrait.cover DIV.bloom-imageContainer
 {
 	height: 10cm;
-	width: 99%;
+	width: 100%;
 	/*+placement:anchor-top-left 0px 105px;*/
 	position: absolute;
 	left: 0px;
@@ -160,13 +160,31 @@ DIV.bloom-editable.smallCoverCredits
 {
 	font-size: 100%;
 	text-align: center;
-	/*+placement:anchor-top-left 0px 579px;*/
+	/*+placement:anchor-top-left 0px 572px;*/
 	position: absolute;
 	left: 0px;
-	top: 579px;
+	top: 572px;
 	height: 49px;
 }
 .A4Portrait DIV.bloom-editable.smallCoverCredits
+{
+	/*[disabled]font-size:100%;*/
+	/*[disabled]text-align:center;*/
+	/*[disabled]+placement:anchor-top-left 0px 834px;*/
+	/*[disabled]height:49px;*/
+}
+/*.....Small cover reading level*/
+DIV.bloom-editable.smallCoverLevel
+{
+	font-size: 100%;
+	text-align: center;
+	/*+placement:anchor-top-left 0px 627px;*/
+	position: absolute;
+	left: 0px;
+	top: 627px;
+	height: 49px;
+}
+.A4Portrait DIV.bloom-editable.smallCoverLevel
 {
 	/*[disabled]font-size:100%;*/
 	/*[disabled]text-align:center;*/
