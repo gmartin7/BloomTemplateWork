@@ -124,12 +124,12 @@ It will be treated as the 2ndary title, which is small and not at the top, and s
 /*......Image*/
 .A5Portrait.cover DIV.bloom-imageContainer
 {
-	height: 10cm;
+	height: 9cm;
 	width: 100%;
-	/*+placement:anchor-top-left 0px 105px;*/
+	/*+placement:anchor-top-left 0px 126px;*/
 	position: absolute;
 	left: 0px;
-	top: 105px;
+	top: 126px;
 }
 .B5Portrait.cover DIV.bloom-imageContainer
 {
@@ -193,23 +193,26 @@ DIV.bloom-editable.smallCoverLevel
 }
 DIV.ISBNContainer
 {
-	width:100%;
-	line-height:12pt;
-	font-family:arial;
-    display: none;
+	width: 100%;
+	line-height: 12pt;
+	font-family: arial;
+	display: none;
 	/*+placement:anchor-bottom-left 2px 216px;*/
+	position: absolute;
+	left: 2px;
+	bottom: 216px;
 }
 DIV.ISBNContainer .bloom-editable
 {
-	width:4.3cm;
+	width: 4.3cm;
 	/*display:inline-block;*/
-    display: none;
-	vertical-align:text-top;
+	display: none;
+	vertical-align: text-top;
 }
 .ISBNContainer SPAN
 {
-	vertical-align:top;
-    display: none;
+	vertical-align: top;
+	display: none;
 }
 /*.......Language Name*/
 DIV.coverBottomLangName DIV
@@ -248,22 +251,20 @@ DIV.titlePage
 {
 	height: 73px;
 	width: 100%;
-/*+placement:anchor-top-left 0mm 88.4mm;*/
-
+	/*+placement:anchor-top-left 0mm 88.4mm;*/
 	position: absolute;
 	left: 0mm;
 	top: 88.4mm;
-    display: none;
+	display: none;
 }
 #funding .bloom-contentNational1
 {
-/*+placement:shift 0px 251px;*/
-
+	/*+placement:shift 0px 251px;*/
 	position: relative;
 	left: 0px;
 	top: 251px;
 	height: 86px;
-    display: none;
+	display: none;
 }
 /*Unless otherwise positioned and made visible, hide all the language elements in there*/
 DIV#titlePageTitleBlock DIV.bloom-contentNational2
@@ -325,6 +326,7 @@ DIV.titlePage .credits
 	display: none;
 	/*+placement:anchor-bottom-left 0 87px;*/
 	position: absolute;
+	left: 0;
 	bottom: 87px;
 }
 /*.......Topic*/
@@ -395,8 +397,11 @@ DIV.titlePage DIV.langName.bloom-content1, DIV.titlePage DIV.langName.bloom-cont
 DIV.languageLocation
 {
 	/*+placement:anchor-top-left 6px 50px;*/
-	width:407px;
-    display: none;
+	position: absolute;
+	left: 6px;
+	top: 50px;
+	width: 407px;
+	display: none;
 }
 DIV#titlePageTitleBlock
 {
@@ -424,8 +429,8 @@ DIV.verso DIV
 }
 .A5Landscape DIV.originalAcknowledgments
 {
-	height:156px;
-	width:100%;
+	height: 156px;
+	width: 100%;
 }
 DIV.originalAcknowledgments DIV.bloom-contentNational1
 {
@@ -515,7 +520,21 @@ DIV.licenseUrl
 {
 	display: none;
 }
-/*...................version acknowledgments*/
+/*...................edition and number of copies*/
+DIV.editionAndCopies
+{
+	width: 100%;
+	height: 29px;
+}
+.A5Portrait DIV#editionAndCopies
+{
+	/*+placement:anchor-top-left 0px 0px;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+/*...................publication date
+...................version acknowledgments*/
 DIV.versionAcknowledgments
 {
 	height: 204px !important;
