@@ -533,8 +533,20 @@ DIV.editionAndCopies
 	left: 0px;
 	top: 0px;
 }
-/*...................publication date
-...................version acknowledgments*/
+/*...................publication date*/
+DIV.editionAndCopies
+{
+    width: 100%;
+    height: 29px;
+}
+.A5Portrait DIV#editionAndCopies
+{
+    /*+placement:anchor-top-left 0px 0px;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+/*...................version acknowledgments*/
 DIV.versionAcknowledgments
 {
 	height: 204px !important;
