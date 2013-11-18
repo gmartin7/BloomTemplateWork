@@ -193,20 +193,23 @@ DIV.bloom-editable.smallCoverLevel
 }
 DIV.ISBNContainer
 {
-	/*[disabled]width:100%;*/
-	/*[disabled]line-height:12pt;*/
-	/*[disabled]font-family:arial;*/
-	/*[disabled]+placement:anchor-bottom-left 2px 216px;*/
+	width:100%;
+	line-height:12pt;
+	font-family:arial;
+    display: none;
+	/*+placement:anchor-bottom-left 2px 216px;*/
 }
 DIV.ISBNContainer .bloom-editable
 {
-	/*[disabled]width:4.3cm;*/
-	/*[disabled]display:inline-block;*/
-	/*[disabled]vertical-align:text-top;*/
+	width:4.3cm;
+	/*display:inline-block;*/
+    display: none;
+	vertical-align:text-top;
 }
 .ISBNContainer SPAN
 {
-	/*[disabled]vertical-align:top;*/
+	vertical-align:top;
+    display: none;
 }
 /*.......Language Name*/
 DIV.coverBottomLangName DIV
@@ -245,19 +248,22 @@ DIV.titlePage
 {
 	height: 73px;
 	width: 100%;
-	/*+placement:anchor-top-left 0mm 88.4mm;*/
+/*+placement:anchor-top-left 0mm 88.4mm;*/
+
 	position: absolute;
 	left: 0mm;
 	top: 88.4mm;
+    display: none;
 }
 #funding .bloom-contentNational1
 {
-	display: block;
-	/*+placement:shift 0px 251px;*/
+/*+placement:shift 0px 251px;*/
+
 	position: relative;
 	left: 0px;
 	top: 251px;
 	height: 86px;
+    display: none;
 }
 /*Unless otherwise positioned and made visible, hide all the language elements in there*/
 DIV#titlePageTitleBlock DIV.bloom-contentNational2
@@ -278,7 +284,7 @@ DIV#titlePageTitleBlock DIV.bloom-contentNational1
 	display: block;
 	font-size: 100%;
 }
-/*Note: this vernacular/conent1 must come *after* the National1 rule, else when we have English as the only language,
+/*Note: this vernacular/content1 must come *after* the National1 rule, else when we have English as the only language,
 It will be treated as the 2ndary title, which is small and not at the top, and shell-book makers get confused and don't like it.*/
 DIV#titlePageTitleBlock DIV.bloom-content1
 {
@@ -317,9 +323,8 @@ DIV#titlePageTitleBlock DIV.bloom-content1
 DIV.titlePage .credits
 {
 	display: none;
-	/*+placement:anchor-bottom-left -1.1 87px;*/
+	/*+placement:anchor-bottom-left 0 87px;*/
 	position: absolute;
-	left: -1.1;
 	bottom: 87px;
 }
 /*.......Topic*/
@@ -327,10 +332,10 @@ DIV.titleBottomBookTopic
 {
 	/*[disabled]overflow:hidden;*/
 	width: 100%;
-	/*+placement:anchor-top-left 0 204.9px;*/
+	/*+placement:anchor-top-left 0 205px;*/
 	position: absolute;
 	left: 0;
-	top: 204.9px;
+	top: 205px;
 	min-height: 20px;
 	height: 48px;
 	text-align: center;
@@ -370,10 +375,10 @@ DIV.titlePage .credits.bloom-contentNational1
 }
 DIV.titlePage DIV#languageInformation
 {
-	/*+placement:anchor-top-left 0 285.5px;*/
+	/*+placement:anchor-top-left 0 285px;*/
 	position: absolute;
 	left: 0;
-	top: 285.5px;
+	top: 285px;
 	width: 100%;
 	height: 57px;
 }
@@ -384,13 +389,14 @@ DIV.titlePage DIV.langName.bloom-contentNational1
 }
 DIV.titlePage DIV.langName.bloom-content1, DIV.titlePage DIV.langName.bloom-contentNational2
 {
-	/*Idealy, we'd show the various ways to render the vernacular lang name only to the extent that they differ from each other (it looks bad to have a repeat)*/
+	/*Ideally, we'd show the various ways to render the vernacular lang name only to the extent that they differ from each other (it looks bad to have a repeat)*/
 	display: none;
 }
 DIV.languageLocation
 {
-	/*[disabled]+placement:anchor-top-left 6px 50px;*/
-	/*[disabled]width:407px;*/
+	/*+placement:anchor-top-left 6px 50px;*/
+	width:407px;
+    display: none;
 }
 DIV#titlePageTitleBlock
 {
@@ -418,8 +424,8 @@ DIV.verso DIV
 }
 .A5Landscape DIV.originalAcknowledgments
 {
-	/*[disabled]height:156px;*/
-	/*[disabled]width:100%;*/
+	height:156px;
+	width:100%;
 }
 DIV.originalAcknowledgments DIV.bloom-contentNational1
 {

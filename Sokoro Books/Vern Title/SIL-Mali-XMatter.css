@@ -241,11 +241,14 @@ DIV.titlePage
 {
 	text-align: center;
 }
+/*
 #funding
 {
 	height: 73px;
 	width: 100%;
-	/*+placement:anchor-top-left 0mm 88.4mm;*/
+	*/
+/*+placement:anchor-top-left 0mm 88.4mm;*//*
+
 	position: absolute;
 	left: 0mm;
 	top: 88.4mm;
@@ -253,12 +256,15 @@ DIV.titlePage
 #funding .bloom-contentNational1
 {
 	display: block;
-	/*+placement:shift 0px 251px;*/
+	*/
+/*+placement:shift 0px 251px;*//*
+
 	position: relative;
 	left: 0px;
 	top: 251px;
 	height: 86px;
 }
+*/
 /*Unless otherwise positioned and made visible, hide all the language elements in there*/
 DIV#titlePageTitleBlock DIV.bloom-contentNational2
 {
