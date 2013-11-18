@@ -363,6 +363,7 @@ DIV.titleBottomBookTopic DIV.bloom-contentNational2
 {
 	/*[disabled]+placement:anchor-top-right -3px 43px;*/
 }
+/*.......Credits*/
 DIV.titlePage .credits.bloom-contentNational1
 {
 	height: 252px;
@@ -375,6 +376,7 @@ DIV.titlePage .credits.bloom-contentNational1
 	left: 0px;
 	bottom: -623px;
 }
+/*.......Language Information*/
 DIV.titlePage DIV#languageInformation
 {
 	/*+placement:anchor-top-left 0 285px;*/
@@ -394,7 +396,7 @@ DIV.titlePage DIV.langName.bloom-content1, DIV.titlePage DIV.langName.bloom-cont
 	/*Ideally, we'd show the various ways to render the vernacular lang name only to the extent that they differ from each other (it looks bad to have a repeat)*/
 	display: none;
 }
-DIV.titlePage DIV.location
+DIV.titlePage DIV.langName.location
 {
 	display: none;
 }

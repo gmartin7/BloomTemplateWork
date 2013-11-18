@@ -400,6 +400,10 @@ DIV.titlePage DIV.langName.location
 {
 	display: none;
 }
+DIV.titlePage DIV.langName.dialect
+{
+	display: none;
+}
 DIV#titlePageTitleBlock
 {
 	width: inherit;
