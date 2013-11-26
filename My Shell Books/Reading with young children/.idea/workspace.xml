@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb2c8b7-847b-477c-a377-ecb0dad68be1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HowToBook.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="C:\Users\Gordon\Documents\BloomProgramming\My Shell Books\Reading with young children\Reading with young children.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gordon\Documents\BloomProgramming\My Shell Books\Reading with young children\SIL-Mali-XMatter.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadingWithChildren.htm" afterPath="$PROJECT_DIR$/ReadingWithChildren.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadingWithChildren.jade" afterPath="$PROJECT_DIR$/ReadingWithChildren.jade" />
     </list>
     <ignored path="Reading with young children.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="bloom-with-jade-mixins.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/bloomrepo/BloomDesktop/DistFiles/bloom-with-jade-mixins.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="310" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1768">
+            <state line="5" column="29" selection-start="310" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -40,7 +38,7 @@
       <file leaf-file-name="ReadingWithChildren.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadingWithChildren.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="88" column="113" selection-start="6012" selection-end="6012" vertical-scroll-proportion="0.0" vertical-offset="757" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -49,8 +47,10 @@
       <file leaf-file-name="ReadingWithChildren.htm" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReadingWithChildren.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.49210528" vertical-offset="0" max-vertical-offset="760">
-              <folding />
+            <state line="94" column="7" selection-start="7530" selection-end="7530" vertical-scroll-proportion="0.8634538" vertical-offset="953" max-vertical-offset="1700">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +193,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,10 +202,18 @@
     <property name="options.lastSelected" value="settings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BloomJade.bat" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -216,23 +224,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -277,9 +277,8 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494577" sideWeight="0.67106843" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494577" sideWeight="0.67106843" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893157" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -288,6 +287,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -398,22 +398,24 @@
     </entry>
     <entry file="file://C:/bloomrepo/BloomDesktop/DistFiles/bloom-with-jade-mixins.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="310" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+        <state line="5" column="29" selection-start="310" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadingWithChildren.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="88" column="113" selection-start="6012" selection-end="6012" vertical-scroll-proportion="0.0" vertical-offset="757" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadingWithChildren.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.49210528" vertical-offset="0" max-vertical-offset="760">
-          <folding />
+        <state line="94" column="7" selection-start="7530" selection-end="7530" vertical-scroll-proportion="0.8634538" vertical-offset="953" max-vertical-offset="1700">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

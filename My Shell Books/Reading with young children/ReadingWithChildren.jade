@@ -6,8 +6,8 @@ include ../../bloom-with-jade-mixins
 
 html
 	head
-		meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
-		+bloom-standard-metadata()
+		meta(http-equiv='Content-Type', content="text/html; charset=utf-8")
+		+bloom-standard-metadata
 		meta(name='SuitableForMakingShells', content='false')
 		meta(name='bloomBookId', content='cf210dbb-0c65-4e19-9764-0b7d8f8ce4e8')
 		meta(name='pageTemplateSource', content='Basic Book')
@@ -20,4 +20,70 @@ html
 		+cssLink('..\settingsCollectionStyles')
 	body
 		#bloomDataDiv
-			+bloom-title('en','Reading with children')
+			+bloom-title('en', 'Reading with children')
+			div(data-book='contentLanguage1', lang='*') en
+			div(data-book='coverImage', lang='*') placeholder.png
+			+bloom-topic('en', 'Primer')
+			div(data-book='copyright', lang='*') Copyright &copy; 2013, LASI and SILA
+			div(data-book='licenseImage', lang='*') license.png?1385485792397
+			div(data-book='licenseUrl', lang='*') http://creativecommons.org/licenses/by-nc-nd/3.0/
+			div(data-book='licenseDescription', lang='en') You may not use this work for commercial purposes. You may not alter, transform, or build upon this work without permission. You must attribute the work in the manner specified by the author.
+		.bloom-page.cover.coverColor.bloom-frontMatter.A5Portrait(data-export='front-matter-cover', data-page='required singleton',
+				id='8420c464-ce0f-4b23-8132-87f526cda9bf')
+			.pageLabel(lang='en') Front Cover
+			.marginBox
+				.bloom-translationGroup.coverTitle
+					.bookTitle.bloom-editable.bloom-contentNational1.bloom-content1(data-book='bookTitle', contenteditable='true',
+							lang='en') Reading with children
+				.bloom-imageContainer(style='')
+					img(style='width: 384px; height: 378px; margin-left: 12px; margin-top: 0px;',
+							alt='This picture, placeholder.png, is missing or was loading too slowly.',
+							data-book='coverImage', src='placeholder.png', height='378', width='384')
+				.bloom-editable.smallCoverCredits(data-book='smallCoverCredits',
+						data-hint='*You may use this space for author/illustrator, or anything else.', contenteditable='true', lang='en')
+				.coverBottomLangName
+					div(data-library='nameOfLanguage', lang='en') English
+				.bloom-translationGroup.coverBottomBookTopic.bloom-readOnlyInTranslationMode(data-functiononhintclick='ShowTopicChooser()',
+							data-hint='Click to choose topic')
+					.bloom-readOnlyInTranslationMode.bloom-editable.bloom-contentNational1.bloom-content1(data-book='topic',
+								contenteditable='true', lang='en') Primer
+		.bloom-page.cover.coverColor.verso.bloom-frontMatter.A5Portrait(data-export='front-matter-credits', data-page='required singleton',
+				id='4366c05e-6058-4b63-abfc-40b4bd86709d')
+			.pageLabel(lang='en') Credits Page
+			.marginBox
+				.bloom-translationGroup.originalAcknowledgements
+					.bloom-editable.bloom-readOnlyInTranslationMode.bloom-copyFromOtherLanguageIfNecessary.bloom-contentNational1.bloom-content1(lang='en',
+							data-book='originalAcknowledgments', data-hint='Acknowledgments in {lang}', contenteditable='true')
+				.bloom-metaData(id='versoLicenseAndCopyright', data-functiononhintclick='bookMetadataEditor',
+						data-hint='Click to Edit Copyright &amp; License')
+					.copyright(lang='*', data-book='copyright') Copyright &copy; 2013, LASI &amp; SILA
+					img(alt='This picture, license.png?1385485792397, is missing or was loading too slowly.',
+							class='licenseImage', data-book='licenseImage', src='license.png?1385485792397')
+					.licenseUrl(lang='en', data-book='licenseUrl') http://creativecommons.org/licenses/by-nc-nd/3.0/
+					.licenseNotes(lang='en', data-book='licenseNotes')
+					.licenseDescription(lang='en', data-book='licenseDescription') You may not use this work for commercial purposes. You may not alter, transform, or build upon this work without permission. You must attribute the work in the manner specified by the author.
+				.ISBNContainer(data-hint="International Standard Book Number. Leave blank if you don't have one of these.")
+					span(class='bloom-doNotPublishIfParentOtherwiseEmpty') ISBN
+					.bloom-editable(data-book='ISBN', contenteditable='true', lang='*')
+				.versionAcknowledgments.bloom-editable.bloom-readOnlyInEditMode(data-book='versionAcknowledgments', lang='en',
+						contenteditable='true', data-hint='Acknowledgments for translated version, in {lang}')
+		.bloom-page.titlePage.bloom-frontMatter.bloom-startPageNumbering.A5Portrait(data-export='front-matter-title-page',
+				data-page='required singleton', id='2d9957fb-438a-4135-a765-f2633314f8bb')
+			.pageLabel(lang='en') Title Page
+			.marginBox
+				.bloom-translationGroup#titePageTitleBlock
+					.bloom-editable.bloom-contentNational1.bloom-content1(data-book='bookTitle', lang='en', contenteditable='true',
+							data-hint='Book title in {lang}') Reading with children
+				.bloom-translationGroup#originalContributions
+					.credits.bloom-editable.bloom-readOnlyInTranslationMode.bloom-contentNational1.bloom-content1(lang='en',
+							contenteditable='true', data-book='originalContributions', data-hint='The contributions made by writers, illustrators, editors, etc., in {lang}')
+				.bloom-translationGroup#funding
+					.funding.bloom-editable.bloom-contentNational1.bloom-content1(data-book='funding', lang='en', contenteditable='true',
+							data-hint='Use this to acknowledge any funding agencies.')
+				#languageInformation
+					.bloom-translationGroup
+						.langName.bloom-contentNational1.bloom-content1(lang='en', data-library='nameOfLanguage') English
+					.bloom-translationGroup
+						.langName.bloom-contentNational1.bloom-content1(lang='en', data-library='dialect')
+					.bloom-translationGroup
+						.langName.bloom-contentNational1.bloom-content1(lang='en', data-library='languageLocation')
