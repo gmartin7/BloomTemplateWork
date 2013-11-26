@@ -19,20 +19,13 @@
     <link rel="stylesheet" href="Factory-XMatter.css" type="text/css">
     <link rel="stylesheet" href="..\settingsCollectionStyles.css" type="text/css">
     <link rel="stylesheet" href="..\customCollectionStyles.css" type="text/css">
+    <link rel="stylesheet" href="HowToBook.css" type="text/css">
 </head>
 
 <body>
     <div id="bloomDataDiv">
         <div data-book="bookTitle" lang="en">
             Reading with young children
-        </div>
-
-        <div data-book="bookTitle" lang="tpi">
-            Nupela Buk
-        </div>
-
-        <div data-book="bookTitle" lang="id">
-            Buku Dasar
         </div>
 
         <div data-book="contentLanguage1" lang="*">
@@ -48,7 +41,7 @@
         </div>
 
         <div data-book="copyright" lang="*">
-            Copyright &copy; 2013, LASI &amp; SILA
+            Copyright &copy; 2013, LASI and SILA
         </div>
 
         <div data-book="licenseImage" lang="*">
