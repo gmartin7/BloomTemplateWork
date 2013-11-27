@@ -6,11 +6,23 @@ STARTLAYOUTS
 ENDLAYOUTS
 */
 
+.imageOnTopWithHeading.A5Portrait
+{
+    /* display: none; (placeholder to show syntax)*/
+}
 .bloom-textHeading
 {
     /* display: none; (placeholder to show syntax)*/
 }
-.imageOnTopWithHeading.A5Portrait
+.imageOnTopWithStep.A5Portrait
+{
+    /* display: none; (placeholder to show syntax)*/
+}
+.bloom-stepLabel
+{
+    /* display: none; (placeholder to show syntax)*/
+}
+.imageOnTopWithStepAndHeading.A5Portrait
 {
     /* display: none; (placeholder to show syntax)*/
 }
