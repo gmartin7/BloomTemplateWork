@@ -1,28 +1,43 @@
-/* This file contains styles for template pages used in creating a HowTo book with steps to follow */
-
-/* These tell Bloom what choices to give the use as far as Page, Orientation, & Layout options:
+/*[fmt]AA90-1A0B-1*/
+/*This file contains styles for template pages used in creating a HowTo book with steps to follow
+These tell Bloom what choices to give the use as far as Page, Orientation, & Layout options:
 STARTLAYOUTS
 {"layouts":     ["A5Portrait"]  }
 ENDLAYOUTS
 */
+DIV.imageOnTopWithHeading.A5Portrait
+{
+}
 
-.imageOnTopWithHeading.A5Portrait
+DIV.bloom-textHeading
 {
-    /* display: none; (placeholder to show syntax)*/
+	font-weight: bold;
+	font-size: larger;
+	text-align: center;
 }
-.bloom-textHeading
+
+DIV.imageOnTopWithStep.A5Portrait
 {
-    /* display: none; (placeholder to show syntax)*/
 }
-.imageOnTopWithStep.A5Portrait
+
+DIV.bloom-stepLabel
 {
-    /* display: none; (placeholder to show syntax)*/
+	font-weight: bold;
+	font-size: larger;
+	text-align: left;
 }
-.bloom-stepLabel
+
+DIV.imageOnTopWithStepAndHeading.A5Portrait
 {
-    /* display: none; (placeholder to show syntax)*/
 }
-.imageOnTopWithStepAndHeading.A5Portrait
+
+DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-stepLabel
 {
-    /* display: none; (placeholder to show syntax)*/
+	/*+placement:shift 0px 35px;*/
+	position: relative;
+	left: 0px;
+	top: 35px;
+	font-size: larger;
+	font-weight: bold;
 }
+
