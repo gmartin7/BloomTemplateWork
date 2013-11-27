@@ -6,7 +6,7 @@ include ../../bloom-with-jade-mixins
 
 html
 	head
-		meta(http-equiv='Content-Type', content="text/html; charset=utf-8")
+		meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
 		+bloom-standard-metadata
 		meta(name='SuitableForMakingShells', content='false')
 		meta(name='bloomBookId', content='cf210dbb-0c65-4e19-9764-0b7d8f8ce4e8')
@@ -56,7 +56,7 @@ html
 							data-book='originalAcknowledgments', data-hint='Acknowledgments in {lang}', contenteditable='true')
 				.bloom-metaData(id='versoLicenseAndCopyright', data-functiononhintclick='bookMetadataEditor',
 						data-hint='Click to Edit Copyright &amp; License')
-					.copyright(lang='*', data-book='copyright') Copyright &copy; 2013, LASI &amp; SILA
+					.copyright(lang='*', data-book='copyright') Copyright &copy; 2013, LASI and SILA
 					img(alt='This picture, license.png?1385485792397, is missing or was loading too slowly.',
 							class='licenseImage', data-book='licenseImage', src='license.png?1385485792397')
 					.licenseUrl(lang='en', data-book='licenseUrl') http://creativecommons.org/licenses/by-nc-nd/3.0/
@@ -87,3 +87,14 @@ html
 						.langName.bloom-contentNational1.bloom-content1(lang='en', data-library='dialect')
 					.bloom-translationGroup
 						.langName.bloom-contentNational1.bloom-content1(lang='en', data-library='languageLocation')
+		+bloom-template-combined('CHANGETHIS4884-bb54-8ed2fe2523f1', 'Image and Text with Heading').imageOnTopWithHeading.A5Portrait.bloom-monolingual
+			+shellImage.bloom-leadingElement
+			+shellField.bloom-trailingElement.bloom-textHeading
+			+shellField.bloom-trailingElement
+		.bloom-page.cover.coverColor.insideBackCover.bloom-backMatter.A5Portrait#'some guid'(data-export='back-matter-inside-back-cover',
+				data-page='required singleton')
+			.pageLabel(lang='en') Inside Back Cover
+			.marginBox
+				.bloom-editable(lang='en', contenteditable='true', data-book='insideBackCover',
+						data-hint='If you need somewhere to put more information about the book, you can use this page, which is the inside of the back cover.')
+		.bloom-page cover coverColor outsideBackCover bloom-backMatter A5Portrait

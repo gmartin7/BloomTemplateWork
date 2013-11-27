@@ -1,1 +1,16 @@
 /* This file contains styles for template pages used in creating a HowTo book with steps to follow */
+
+/* These tell Bloom what choices to give the use as far as Page, Orientation, & Layout options:
+STARTLAYOUTS
+{"layouts":     ["A5Portrait"]  }
+ENDLAYOUTS
+*/
+
+.bloom-textHeading
+{
+    /* display: none; (placeholder to show syntax)*/
+}
+.imageOnTopWithHeading.A5Portrait
+{
+    /* display: none; (placeholder to show syntax)*/
+}

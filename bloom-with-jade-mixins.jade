@@ -18,7 +18,8 @@ mixin styleSheets(templateSpecificCSS)
 	+cssLink('basePage')
 	+cssLink('languageDisplay')
 	+cssLink('editMode')
-	+cssLink(templateSpecificCSS)
+	if templateSpecificCSS
+		+cssLink(templateSpecificCSS)
 	+cssLink('file://..\customCollectionStyles')
 
 //- Uncomment to test above mixin
@@ -43,7 +44,7 @@ mixin bloom-template-page(idGuid, title)
 
 //- Extra combined template page
 mixin bloom-template-combined(idGuid, title)
-	+bloom-template-page(idGuid, title)(class='bloom-combinedPage')(class=attributes.class, title=attributes.title)
+	+bloom-template-page(idGuid, title).bloom-combinedPage(class=attributes.class, title=attributes.title)
 		block
 
 //- Gives an A5Portrait page
