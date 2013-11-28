@@ -5,39 +5,58 @@ STARTLAYOUTS
 {"layouts":     ["A5Portrait"]  }
 ENDLAYOUTS
 */
-DIV.imageOnTopWithHeading.A5Portrait
-{
-}
-
-DIV.bloom-textHeading
+DIV.bloom-text-heading
 {
 	font-weight: bold;
 	font-size: larger;
 	text-align: center;
 }
 
-DIV.imageOnTopWithStep.A5Portrait
+DIV.A5Portrait .bloom-text-heading
 {
+	height: 45px;
 }
 
-DIV.bloom-stepLabel
+DIV.bloom-step-label
 {
 	font-weight: bold;
 	font-size: larger;
 	text-align: left;
 }
 
-DIV.imageOnTopWithStepAndHeading.A5Portrait
+DIV.A5Portrait .bloom-step-label
 {
+	height: 45px;
 }
 
-DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-stepLabel
+DIV.bloom-text-after-heading
 {
-	/*+placement:shift 0px 35px;*/
+	text-align: left;
+}
+
+DIV.A5Portrait .bloom-text-after-heading
+{
+	/*+placement:shift 0px 20px;*/
 	position: relative;
 	left: 0px;
-	top: 35px;
-	font-size: larger;
-	font-weight: bold;
+	top: 20px;
+	height: 245px;
+}
+
+DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-step-label
+{
+	/*+placement:shift 0px 15px;*/
+	position: relative;
+	left: 0px;
+	top: 15px;
+}
+
+DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-headingAndStep
+{
+	/*+placement:shift 0px 25px;*/
+	position: relative;
+	left: 0px;
+	top: 25px;
+	height: 195px;
 }
 
