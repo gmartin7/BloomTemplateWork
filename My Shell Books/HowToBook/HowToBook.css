@@ -9,6 +9,7 @@ DIV.bloom-text-heading
 {
 	font-weight: bold;
 	text-align: center;
+	font-size: smaller;
 }
 
 DIV.A5Portrait .bloom-text-heading
@@ -20,6 +21,7 @@ DIV.bloom-step-label
 {
 	font-weight: bold;
 	text-align: left;
+	font-size: smaller;
 }
 
 DIV.A5Portrait .bloom-step-label
@@ -30,7 +32,8 @@ DIV.A5Portrait .bloom-step-label
 DIV.bloom-text-after-heading
 {
 	text-align: left;
-    text-indent: 2em;
+	text-indent: 2em;
+	font-size: smaller;
 }
 
 DIV.A5Portrait .bloom-text-after-heading
@@ -57,5 +60,10 @@ DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-heading
 	left: 0px;
 	top: 25px;
 	height: 195px;
+}
+
+P.bloom-text-after-heading
+{
+	text-indent: 2em;
 }
 
