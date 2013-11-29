@@ -15,6 +15,10 @@ DIV.bloom-text-heading
 DIV.A5Portrait .bloom-text-heading
 {
 	height: 45px;
+	/*+placement:shift 0px 15px;*/
+	position: relative;
+	left: 0px;
+	top: 15px;
 }
 
 DIV.bloom-step-label
@@ -27,6 +31,10 @@ DIV.bloom-step-label
 DIV.A5Portrait .bloom-step-label
 {
 	height: 45px;
+	/*+placement:shift 0px 15px;*/
+	position: relative;
+	left: 0px;
+	top: 15px;
 }
 
 DIV.bloom-text-after-heading
@@ -38,32 +46,32 @@ DIV.bloom-text-after-heading
 
 DIV.A5Portrait .bloom-text-after-heading
 {
-	/*+placement:shift 0px 20px;*/
+	/*+placement:shift 0px 30px;*/
 	position: relative;
 	left: 0px;
-	top: 20px;
-	height: 245px;
+	top: 30px;
+	height: 320px;
 }
 
 DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-step-label
 {
-	/*+placement:shift 0px 15px;*/
+	/*+placement:shift 0px 30px;*/
 	position: relative;
 	left: 0px;
-	top: 15px;
+	top: 30px;
 }
 
 DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-heading
 {
-	/*+placement:shift 0px 25px;*/
+	/*+placement:shift 0px 45px;*/
 	position: relative;
 	left: 0px;
-	top: 25px;
-	height: 195px;
+	top: 45px;
+	height: 260px;
 }
 
-P.bloom-text-after-heading
+.bloom-imageContainer
 {
-	text-indent: 2em;
+	height: 280px;
 }
 
