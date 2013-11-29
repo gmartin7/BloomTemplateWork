@@ -8,7 +8,6 @@ ENDLAYOUTS
 DIV.bloom-text-heading
 {
 	font-weight: bold;
-	font-size: larger;
 	text-align: center;
 }
 
@@ -20,7 +19,6 @@ DIV.A5Portrait .bloom-text-heading
 DIV.bloom-step-label
 {
 	font-weight: bold;
-	font-size: larger;
 	text-align: left;
 }
 
@@ -32,6 +30,7 @@ DIV.A5Portrait .bloom-step-label
 DIV.bloom-text-after-heading
 {
 	text-align: left;
+    text-indent: 2em;
 }
 
 DIV.A5Portrait .bloom-text-after-heading
@@ -51,7 +50,7 @@ DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-step-label
 	top: 15px;
 }
 
-DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-headingAndStep
+DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-heading
 {
 	/*+placement:shift 0px 25px;*/
 	position: relative;
