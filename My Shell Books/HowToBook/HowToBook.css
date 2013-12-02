@@ -5,14 +5,30 @@ STARTLAYOUTS
 {"layouts":     ["A5Portrait"]  }
 ENDLAYOUTS
 */
-DIV.bloom-text-heading
+DIV.textBox
+{
+    text-align: left;
+    text-indent: 2em;
+    font-size: smaller;
+}
+
+DIV.A5Portrait .textBox
+{
+    /*+placement:shift 0px 30px;*/
+    position: relative;
+    left: 0px;
+    top: 30px;
+    height: 320px;
+}
+
+DIV.headingText
 {
 	font-weight: bold;
 	text-align: center;
 	font-size: smaller;
 }
 
-DIV.A5Portrait .bloom-text-heading
+DIV.A5Portrait .headingText
 {
 	height: 45px;
 	/*+placement:shift 0px 15px;*/
@@ -21,14 +37,14 @@ DIV.A5Portrait .bloom-text-heading
 	top: 15px;
 }
 
-DIV.bloom-step-label
+DIV.stepLabel
 {
 	font-weight: bold;
 	text-align: left;
 	font-size: smaller;
 }
 
-DIV.A5Portrait .bloom-step-label
+DIV.A5Portrait .stepLabel
 {
 	height: 45px;
 	/*+placement:shift 0px 15px;*/
@@ -37,23 +53,21 @@ DIV.A5Portrait .bloom-step-label
 	top: 15px;
 }
 
-DIV.bloom-text-after-heading
+.bloom-imageContainer
 {
-	text-align: left;
-	text-indent: 2em;
-	font-size: smaller;
+    height: 280px;
 }
 
-DIV.A5Portrait .bloom-text-after-heading
+DIV.A5Portrait .bloom-centerVertically
 {
-	/*+placement:shift 0px 30px;*/
-	position: relative;
-	left: 0px;
-	top: 30px;
-	height: 320px;
+    height: 100%;
+    /*+placement:shift 0px 0px;*/
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 
-DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-step-label
+DIV.imageOnTopWithStepAndHeading.A5Portrait .stepLabel
 {
 	/*+placement:shift 0px 30px;*/
 	position: relative;
@@ -61,7 +75,7 @@ DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-step-label
 	top: 30px;
 }
 
-DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-heading
+DIV.imageOnTopWithStepAndHeading.A5Portrait .textBox
 {
 	/*+placement:shift 0px 45px;*/
 	position: relative;
@@ -70,8 +84,21 @@ DIV.imageOnTopWithStepAndHeading.A5Portrait .bloom-text-after-heading
 	height: 260px;
 }
 
-.bloom-imageContainer
+DIV.imageOnBottom.A5Portrait .textBox
 {
-	height: 280px;
+	/*+placement:anchor-top-left 0px 0px;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 370px;
+	width: 100%;
+}
+
+DIV.imageOnBottom.A5Portrait .bloom-imageContainer
+{
+	/*+placement:shift 0px 385px;*/
+	position: relative;
+	left: 0px;
+	top: 385px;
 }
 
