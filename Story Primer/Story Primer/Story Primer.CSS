@@ -1,0 +1,149 @@
+
+/* 
+ 2013-11-05
+ hand created - jaa 2012-01-02 
+ Story Primer.CSS 
+ */
+
+#funding {padding-top: 36pc !important;  }/*add space above to move funding down the page/*/
+.activity {padding: 0 6pt !important}
+.alphabet {} 
+.answer {margin-left: 2pt ;}
+.author {margin-left: 2pt ; margin-top: 24pt ;}
+.blank {width: 2pc ; }
+.bloom-editable {overflow:visible !important;   ; margin-left: 2pt; margin-right: 2pt; ;  /*line-height: 150%  130% caused descender clipping error in Daughter of the King */ }
+.bloom-content1 {margin-left: 2pt; margin-right: 2pt ; }
+.A5Portrait .bloom-editable{font-size: 140% ;   }
+.A4Portrait .bloom-editable{font-size: 140% ;   }
+.bloom-imageContainer {z-index:10 ;  }
+.borders {border: black 1pt solid ; width: 100% ; table-layout:fixed;}
+.bottom {border-bottom: solid black 1pt}
+.box + .box {margin: 3pt 15mm 0 15mm ; ; z-index: 7; }
+.box {border: black 1pt solid ; margin: 0pt 15mm 15mm 15mm; padding: 0pt 1pc ; z-index: 7; }
+.boxBlankMatchingIconBook {width: 10%}
+.boxIcon {width: 20% ; }
+.boxLessonNumber {width:20%}
+.boxLessonTitle {width: 60% }
+.boxNoBorder {margin: 0pc 1pc 6pt 1pc ; padding: 1pc ; }
+.boxSampleLetterRight {width: 20% ; padding-top: 1pc ; text-align: center}
+.center {margin-left: auto ; margin-right: auto ;}
+.discuss {margin-left: 2pt ; margin-right: 2pt ; text-indent: 0pc; }
+.divider {border-bottom: black solid 1pt !important; margin:0 -1pc 0 -1pc;  }/* add space but no line with white*/
+.editYes {}
+.floatLeft {width: auto; height: auto; float: left ; border: solid pink 3pt ;}
+.floatRight {width: auto; height: auto; float: right; }
+.flushBottom {display: table; vertical-align:bottom }
+.fullPageImage {width: 100%; height: 100%; }
+.halfWidth {width: 160pt; height:auto ; }
+.halfWidthImage {width: 153pt; height:auto ;  }
+.icon img{width: 100%; height: auto ; }
+.A5Portrait .icon {border: 2pt solid pink; float: left; width: 3.5pc; height: 3.5pc; z-index: 5; margin: 2pt 0 0 2pt ; padding: 0 ; }
+.A4Portrait .icon {border: 2pt solid black; float: left; width: 5.0pc; height: 5.0pc; z-index: 5; margin: 2pt 0 0 2pt ; padding: 0 ; }
+/*.icons img{width: 100%; height: auto ; }*/
+/*.icons {float: left; width: 3.5pc; height: 3.5pc; z-index: 5; margin: 0 2pc 0 2pt ; padding: 0 ; }*/
+.imageAdjustable {vertical-align:top; width:50% ;}
+.imageOnBottom {width: 100%; height: 40%;	/*+placement:anchor-bottom-left;*/position: absolute; left: 0; bottom: 0;}
+.A5Portrait .instructions {line-height: 1.2em !important ; margin:2pt 2pt 0 2pt !important; font-size: 50% !important; font-style: italic !important; font-weight: normal !important;  }
+.A4Portrait .instructions {line-height: 1.2em !important ; margin:2pt 2pt 0 2pt !important; font-size: 90% !important; font-style: italic !important; font-weight: normal !important;  }
+.keyWord {clear: both; text-align: center ; margin-left: 2pt }/* clear both forces p to start below the graphics */
+.largeImage {width: 100%; height:auto ; z-index: -500 ; }
+.left {border-left: solid black 1pt}
+.A5Portrait .lessonNumber {font-size: 80%  !important;   }
+.A4Portrait .lessonNumber {font-size: 80%  !important;  }
+.lessonTitle {margin-left: 2pt; margin-top: 0pc ; text-align: center ; font-weight: bold; font-size: 10pt ;  }
+.mainTitle {font-weight: bold; text-align: center ; }
+.cover .marginBox {overflow-x:hidden; overflow-y:hidden; height: 180mm; width: 109mm; border: none ;  z-index: 100000;   }
+.marginBox {overflow-x:hidden; overflow-y:hidden; height: 180mm; width: 109mm; border: blue 1pt solid ;  z-index: 100000;   }
+.pageNumber {width:10% ; vertical-align:top ; }
+.paraByImage {width:200pt}
+.paragraphNextToImageBottom {vertical-align:top; }
+.paragraphNextToImageTop {vertical-align:bottom; }
+.primer {margin-top: 6pt; width: 100% ; }
+.primerTable + .primerTable {margin-top: 6pt ;} /* following table has space above */
+.primerTable td {border: black solid 1pt; text-align: center ; padding: 6pt 9pt}
+.primerTable {border-collapse:collapse; margin-left: auto ; margin-right: auto ; }
+.primerTableBeginner td {border: black solid 1pt; text-align: center ; margin-left: auto ; margin-right: auto ; padding: 12pt 12pt ;}
+.primerTableBeginner {border-collapse:collapse; margin-left: auto ; margin-right: auto ; }
+.primerTableFixed {table-layout:fixed ; width: 100% ; }
+.primerTableMatrix td {border: black solid 1pt; text-align: center ; padding: 6pt 3pt}
+.primerTableMatrix {table-layout:fixed ; width: 100% ; border-collapse:collapse; margin-top: 0pc}
+.primerTableMatrixLarge img {height: 54pt; float: right }
+.primerTableMatrixLarge td {border: black solid 1pt; text-align: center ;}
+.primerTableMatrixLarge {table-layout:fixed ; width: 100% ; border-collapse:collapse; margin-top: 1pc}
+.primerTableMatrixMedium img {height: 45pt; float: left }
+.primerTableMatrixMedium td {border: black solid 1pt; text-align: center ;}
+.primerTableMatrixMedium {table-layout:fixed ; width: 100% ; border-collapse:collapse; margin-top: 1pc}
+.primerTableNoBorder {width: 100%; margin-left: auto ; margin-right: auto; margin:  6pt ; }
+.primerTableWithBorder {width: auto; margin-left: auto ; margin-right: auto; margin:  4pt ;  border: 1pt solid black; }
+.primerTableSplitJoin td {text-align: center ; padding: 0pt 12pt 0pt 12pt;}
+.primerTableSplitJoin {border-collapse:collapse; margin-left: auto ; margin-right: auto ; }
+.primerTableTitleLine {table-layout:fixed ; width: 100% ;}
+.primerTableWordFind td {border: black solid 1pt; text-align: center ; padding: 6pt 3pt}
+.primerTableWordFind {table-layout:fixed ; width: 100% ; border-collapse:collapse; margin-top: 1pc}
+.primerTableWords td {text-align: center ; padding: 0pt 12pt 0pt 12pt;}
+.primerTableWords {margin-left: auto ; margin-right: auto ;}
+.primerTableVowels {margin-left: auto ; margin-right: auto ;}
+.question { text-indent: -2pc ; }
+.questionCaption {margin-left: 2pt; font-size: 60%; }
+.right {border-right: solid black 1pt; }
+.rightImage {max-width:100pt ; height: auto ; padding-left: 6pt; }
+.sampleLetter {margin-left: 2pt ; }
+.sampleLetterLeft {z-index: 5; font-weight: bold; padding: 6pt 11pt ; border: black 1pt solid}
+/*.sam-lepleLetterRight {z-index: 5; font-weight: bold; margin: 6pt 11pt ; border: black 1pt solid; }*/
+.sampleLetterRight {z-index: 5; font-weight: bold; border: black 1pt solid; margin: auto; padding-left: 6pt; padding-right: 6pt  }
+.sampleSentence {font-size:200% !important; clear: both; margin-left: 2pt; text-indent: 0; margin-top: 1pc ; text-align: left ; }
+.scripture {font-weight: bold !important;   }
+.sectionHead {font-weight: bold ; text-align: left ; }
+.sentence {margin-left: 2pt; margin-top: 1pc ; text-align: left ; text-indent: 2pc }
+.smallImage { width: 20% ; border: red solid 2pt; }
+.A5Portrait .smallImageInTable { width: 4.0pc ; height: auto ; border: orange solid 2pt;  }
+.A4Portrait .smallImageInTable { width: 5.7pc ; height: auto ; border: green solid 2pt; }
+.soundInFocus {margin-left: auto ; margin-right: auto ;}
+.space {height: 1cm ; }
+.spacer {margin: 0 0pt ; }
+.story {  margin-left: 2pt ; text-indent: 0 ; /* indent using space bar -- new paragraph with Enter */ }
+.title {font-weight: bold ; text-align:center ; margin-left: 2pt ; margin-right: 0}
+.top {border-top: solid black 1pt}
+.underlined {margin-left: 2pt ; text-decoration:underline ; text-align:left ; margin-bottom: 0pt }
+.write {text-align: left; margin: 0 ; padding:0 ;}
+/*.boxContainer { overflow-x:hidden; overflow-y:hidden; height: 180mm; width: 109mm; border: black 1pt solid ; margin: 15mm 15mm 0cm 15mm; padding: 1pc 1pc ; z-index: 7; }*/
+/*div {line-height: 1.5em !important ; }*/
+div {min-height: 1em ; min-width: 1em ;}
+table + table td {padding: 2pt ;}
+table + table {margin-top: 6pt ;}
+table + table.alphabet td {padding: 0 ; border: solid 3pt orange; }
+table + table.alphabet {margin-top: 0 ; border: solid 2pt red; }
+table.primerTableTitleLine + table td {padding: 0} /* prevent extra padding*/
+td.alphabet {margin-left: auto; margin-right: auto ; border: red 3pt solid; }
+td td {padding: 2pt; }
+table.alphabet td {border: none ; margin: auto; font-size:20pt;  }
+table.alphabet div.alphabet {border: none ; margin: 0pt;  } 
+table.letters4x3 img {padding-bottom: 22.0pt !important ; width: 6.3pc !important; height: auto; } 
+table.letters5x3 img {padding-bottom: 15.3pt !important ; width: 5.5pc !important; height: auto;  } 
+table.letters6x3 img {padding-bottom: 10.8pt!important ; width: 4.8pc !important; height: auto;  } 
+table.letters7x3 img {padding-bottom: 6.6pt!important ; width: 4.5pc !important; height: auto;  } 
+table.letters8x3 img {padding-bottom: 5.5pt!important ; width: 4.0pc !important; height: auto; } 
+table.letters9x3 img {padding-bottom: 4.7pt!important ; width: 3.5pc !important; height: auto;  } 
+table.letters5x4 img {padding-bottom: 25.5pt!important ; width: 4.1pc !important; height: auto;  } 
+table.letters6x4 img {padding-bottom: 17.5pt!important ; width: 4.0pc !important; height: auto; } 
+table.letters7x4 img {padding-bottom: 10.5pt!important ; width: 4.0pc !important; height: auto;  } 
+table.alphabet td td {padding: 0pt !important; }
+
+.coverBottomBookTopic .bloom-editable, .coverBottomLangName .bloom-editable {font-size:100% ;  }
+
+
+DIV.A4Portrait DIV.margin-box:nth-of-type(2n+1):after {
+    bottom: 15pt !important;
+    content: counter(pageNumber, decimal);
+    text-align: center !important;
+    font-size: 100% !important;
+}
+DIV.A4Portrait DIV.margin-box:nth-of-type(2n):after {
+     bottom: 15pt !important;
+     content: counter(pageNumber, decimal);
+    font-size: 100%;
+    text-align: center;
+}
+
+#originalAcknowledgments{height: 300px !important;	width: 100%; }
+    

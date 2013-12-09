@@ -1,0 +1,7 @@
+/* These styles are controlled by the Settings dialog box in Bloom. */
+/* They many be over-ridden by rules in customCollectionStyles.css or customBookStyles.css */
+
+BODY
+{
+ font-family: 'Andika';
+}
