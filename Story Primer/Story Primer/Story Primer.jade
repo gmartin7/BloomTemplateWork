@@ -1,6 +1,23 @@
+include ../../bloom-foundation-mixins
+
 !!!
 
 html
     head
-
+        +metadata-standard
+        meta(name='SuitableForMakingShells', content='true')
+        meta(name='SuitableForMakingVernacularBooks', content='yes')
+        meta(name='BloomBookId', content='156B6F11-4A6C-4942-B2BC-8861E62B03B3')
+        meta(name='defaultNameForDerivedBooks', content='Story Primer')
+        meta(name='lockedDownAsShell', content='false')
+        meta(name='pageTemplateSource', content='Story Primer')
+        +stylesheets('Story Primer')
+        +stylesheet('Factory-XMatter')
+        +stylesheet('../settingsCollectionStyles')
     body
+        +dataDiv
+            +bookVariable-title('en', 'Story Primer')
+            .data-book('topic', lang='en') Primer
+            .data-book('originalAcknowledgements', lang='en') Template creation: Jim Albright (SIL International) based on work by Glenys Waters and Karen Hopping
+        +page-choice('Full page image or scan')#1a98decc-55b9-5013-a0de-6512441b3783
+            +image
