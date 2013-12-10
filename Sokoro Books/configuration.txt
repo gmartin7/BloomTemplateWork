@@ -1,1 +1,0 @@
-{"calendar":{"dayAbbreviations":["Sun","Mon","Tues","Wed","Thur","Fri","Sat"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"]}}
